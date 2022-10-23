@@ -1,6 +1,6 @@
 makestatic : lib/libcalculator.a 
 	cd ..;
-	gcc -I./lib -L./lib main.c -lcalculator -o makestatic
+	gcc -I./lib -L./lib -g main.c -lcalculator -o makestatic
 add.o : lib/add.c
 	cd lib;
 	gcc -c add.c
