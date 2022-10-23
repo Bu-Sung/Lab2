@@ -1,0 +1,4 @@
+out :
+	cd lib;make;
+	gcc -I./lib -L./lib main.c -Wl,--rpath=./lib -lcalculator
+
