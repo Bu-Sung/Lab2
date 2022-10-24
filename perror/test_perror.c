@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 	}
 
 	if ( (f = fopen(argv[1], "r")) == NULL ) {
-		new_perror("fopen");
+		my_perror("fopen");
 		exit (1);
  	}
 
