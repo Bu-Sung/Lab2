@@ -5,7 +5,7 @@
 
 void foo(int num)
 {
-	new_assert(((num>=0) && (num<=100)));
+	my_assert(((num>=0) && (num<=100)));
 	printf("foo : num = %d\n", num);
 }
 

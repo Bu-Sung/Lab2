@@ -4,7 +4,7 @@
 #define return void
 #endif
 
-int new_assert(int ex)
+int my_assert(int ex)
 {
 	if(ex == 0)
 	{
